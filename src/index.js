@@ -32,7 +32,6 @@ function weatherData(response) {
   getDateTime(response);
   weatherDescription = document.querySelector("#weather-description");
   weatherDescription.innerHTML = response.data.weather[0].main;
-  console.log(response.data.weather[0].icon);
   let cityTemp = document.querySelector("#city-temp");
   cityTemp.innerHTML = Math.round(response.data.main.temp);
   let humidity = document.querySelector("#humidity");
