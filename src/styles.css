@@ -1,0 +1,49 @@
+.weather-app {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+body {
+  font-family: "Style Script", cursive;
+}
+.navigation-items {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+}
+.navigation-item {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+a {
+  text-decoration: none;
+}
+
+.city {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  height: 44px;
+  outline: 0;
+  padding: 10px;
+  width: 300px;
+}
+.btn {
+  height: 44px;
+}
+
+.nyc {
+  padding: 20px;
+  color: #878792;
+  font-weight: 100;
+}
+.weather-emoji {
+  font-size: 25px;
+}
+.days {
+  text-align: center;
+}
