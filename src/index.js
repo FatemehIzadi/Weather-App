@@ -37,7 +37,7 @@ function weatherData(response) {
   let humidity = document.querySelector("#humidity");
   humidity.innerHTML = `Humidity: ${response.data.main.humidity}%`;
   let windSpeed = document.querySelector("#wind-speed");
-  windSpeed.innerHTML = `Wind Speed: ${response.data.wind.speed}km/s`;
+  windSpeed.innerHTML = `Wind Speed: ${response.data.wind.speed}km/H`;
 }
 
 function sayWeather() {
